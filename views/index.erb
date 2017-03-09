@@ -1,10 +1,10 @@
 <div class="inner cover">
 	<h1><%= @title %></h1>
-	<p class="lead">
+	<p class="lead mt-20">
     Fill out all the fields in the form below, and once complete hit submit
     the full campaign URL and QR Code will be generated.
 	</p>
-	<form action="/generator" method="POST" class="form">
+	<form action="/generator" method="POST" class="form mt-40">
 		<div class="form-group">
       <textarea name="url" class="form-control" placeholder="Eg: http://www.google.com" required></textarea>
 		</div>
@@ -31,8 +31,8 @@
         </div>
       </div>
     </div>
-		<p class="lead">
+		<div class="mt-20">
 			<input type="submit" class="btn btn-lg btn-secondary">
-		</p>
+		</div>
 	</form>
 </div>
