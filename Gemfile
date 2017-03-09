@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'sinatra'
+gem 'barby'
+gem 'rqrcode'
+gem 'chunky_png'
