@@ -16,7 +16,7 @@ post '/generator' do
 	if params[:url].include?("?")
 		@url = "#{params[:url]}&utm_source=#{params[:source]}&utm_campaign=#{params[:medium]}&utm_medium=#{params[:name]}"
 	else
-		@url = "#{params[:url]}/?utm_source=#{params[:source]}&utm_campaign=#{params[:medium]}&utm_medium=#{params[:name]}"
+		@url = "#{params[:url]}?utm_source=#{params[:source]}&utm_campaign=#{params[:medium]}&utm_medium=#{params[:name]}"
 	end
 	erb :generator, :layout => :layout
 end
