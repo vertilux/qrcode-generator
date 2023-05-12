@@ -19,6 +19,7 @@ GEM
       rack-protection (= 3.0.6)
       tilt (~> 2.0)
     tilt (2.1.0)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -28,6 +29,7 @@ DEPENDENCIES
   chunky_png
   rqrcode
   sinatra
+  webrick (~> 1.7)
 
 RUBY VERSION
    ruby 3.2.2p53

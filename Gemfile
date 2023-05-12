@@ -4,3 +4,4 @@ gem 'sinatra'
 gem 'barby'
 gem 'rqrcode'
 gem 'chunky_png'
+gem "webrick", "~> 1.7"
