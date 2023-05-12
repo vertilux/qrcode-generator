@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.4.1"
+ruby "3.2.2"
 gem 'sinatra'
 gem 'barby'
 gem 'rqrcode'
